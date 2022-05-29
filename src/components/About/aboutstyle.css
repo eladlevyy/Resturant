@@ -1,0 +1,18 @@
+header {
+  height: 75vh !important;
+}
+
+.breadcrumb-item {
+  font-size: 25px;
+}
+
+.mypagehead {
+  font-size: 5rem;
+  font-weight: 600;
+  color: #fff !important;
+}
+
+.carousel {
+  height: 70vh !important;
+}
+/*# sourceMappingURL=aboutstyle.css.map */

@@ -1,0 +1,386 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: 'Great Vibes';
+  src: url(./assets/fonts/GreatVibes-Regular.ttf) format("truetype");
+}
+
+header p, .logo {
+  font-family: 'Great Vibes', cursive;
+  line-height: 1;
+}
+
+.heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.heading h3 {
+  font-size: 100px;
+  font-family: 'Great Vibes', cursive;
+  line-height: 1;
+  color: #c8a97e !important;
+  margin-bottom: 5rem;
+  padding-bottom: 3rem;
+}
+
+.heading h2 {
+  position: absolute;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 1.1;
+  color: #333333;
+}
+
+.carousel-item {
+  position: relative;
+  height: 100%;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.logo {
+  font-size: 2rem;
+  color: #c8a97e !important;
+}
+
+.carousel-caption h1 {
+  font-size: 3rem;
+  padding: 2rem 0 4rem;
+  color: #fff;
+  line-height: 1;
+  font-weight: lighter;
+  font-family: "Poppins", Arial, sans-serif;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+}
+
+.carousel-caption p {
+  font-size: 3rem;
+  color: #c8a97e;
+  font-weight: normal;
+  font-family: "Great Vibes", cursive;
+  margin-bottom: 0;
+  line-height: 1;
+}
+
+.nav-link {
+  margin: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-link:hover {
+  color: #c8a97e !important;
+}
+
+.book {
+  background-color: #c8a97e;
+  padding-left: 10px;
+}
+
+.book:hover {
+  color: black !important;
+}
+
+.contactinfo {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  color: rgba(255, 255, 255, 0.6) !important;
+}
+
+header {
+  height: 100vh !important;
+}
+
+.mainnav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 100;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4) !important;
+}
+
+.carousel {
+  height: 100vh !important;
+}
+
+.carousel-inner, .carousel-item {
+  height: 100%;
+  position: relative;
+}
+
+.nav-link {
+  color: #fff !important;
+}
+
+.about, .about2 {
+  background-image: url("./assets/images/about.jpg");
+  background-size: cover;
+  height: 550px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.about2 {
+  background-image: url("./assets/images/about-1.jpg");
+}
+
+.aboutdata {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: 17px;
+  line-height: 2;
+  font-weight: 400;
+  color: #666666;
+}
+
+.number {
+  font-size: 40px;
+  font-weight: 700;
+  color: #c8a97e;
+}
+
+.rate span {
+  color: #c8a97e;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.rate h2 {
+  font-family: "Poppins", Arial, sans-serif;
+  background: #fff;
+  font-size: 16px;
+  line-height: 2;
+  font-weight: 400;
+  color: #666666;
+}
+
+.ratedata {
+  font-family: "Poppins", Arial, sans-serif;
+  background: #fff;
+  font-size: 17px;
+  line-height: 2;
+  font-weight: 400;
+  color: #666666;
+}
+
+.meals h2 {
+  font-size: 23px;
+  line-height: 1.2;
+  color: white;
+}
+
+.meals h6 {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.services {
+  background-color: #fafafa !important;
+}
+
+.services i {
+  color: #c8a97e;
+  font-size: 54px;
+  line-height: 1.3;
+}
+
+.menumeal {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.menumeal h2 {
+  margin-bottom: 0.5rem;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 2;
+  color: black;
+}
+
+.menumeal h2 span {
+  color: #c8a97e;
+}
+
+.menumeal button {
+  margin-bottom: 0.5rem;
+}
+
+.menumeal h6 {
+  margin-bottom: 0.5rem;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 2;
+  color: #666666;
+}
+
+.chefdata h2 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #333333;
+  padding-top: 1.5rem !important;
+}
+
+.chefdata p {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.3);
+  margin-bottom: 0.5rem;
+}
+
+.chefdata a {
+  text-decoration: none;
+  color: #c8a97e;
+  margin-right: 10px;
+}
+
+.reservation {
+  background-image: url("./assets/images/bg_3.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.customer p, .customer span {
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: 17px;
+  line-height: 2;
+  font-weight: 400;
+  color: #666666;
+}
+
+.customer h5 {
+  font-weight: 400;
+  font-size: 22px;
+  margin-bottom: 0;
+  color: #000000;
+}
+
+.blog {
+  background-color: #fafafa !important;
+}
+
+.blog .blogimg {
+  overflow: hidden;
+}
+
+.blog .blogimg img {
+  -webkit-transition: 0.5s all ease-in-out;
+  transition: 0.5s all ease-in-out;
+  height: 250px !important;
+}
+
+.blog .blogcontainer:hover img {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+}
+
+.blogdata p, .blogdata span {
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #666666;
+}
+
+.blogdata h3 {
+  font-weight: 400;
+  font-size: 22px;
+  margin-bottom: 0;
+  line-height: 1.5;
+  font-weight: 600;
+  padding-top: 0px;
+  color: #000000;
+}
+
+.blogdata a {
+  text-decoration: none;
+  color: #666666;
+}
+
+footer, .list-group-item {
+  background-color: #141313;
+  border: none;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+footer p {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 17px;
+  margin-bottom: 1rem;
+}
+
+footer h2 {
+  color: #fff;
+}
+
+footer a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 24px;
+  padding: 10px;
+  margin-right: 8px;
+}
+
+footer .insta img {
+  height: 80px !important;
+  cursor: pointer;
+}
+
+footer button {
+  background-color: #c8a97e !important;
+  border: none;
+}
+
+button {
+  border-color: #c8a97e !important;
+  color: #fff !important;
+  background-color: #c8a97e !important;
+}
+
+button:hover {
+  background-color: transparent !important;
+  border-color: #c8a97e !important;
+  color: #c8a97e !important;
+}
+
+header button:hover {
+  background-color: #fff !important;
+}
+
+footer button {
+  background-color: #c8a97e !important;
+  border: none;
+}
+
+footer button:hover {
+  background-color: #c8a97e !important;
+  border-color: #c8a97e !important;
+  color: #fff !important;
+}
+.error
+{
+  height:  100vh !important;
+}
+/*# sourceMappingURL=index.css.map */
